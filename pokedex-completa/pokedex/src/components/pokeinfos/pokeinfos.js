@@ -81,27 +81,27 @@ export default class Pokeinfos extends Component {
               </div>
                 <div className="status-bar-pokeinf">
                   <div className="grey-bar">
-                    <div className="bar-hp" style={{ width: `${detalhesPokemon.hp}px` }}><span>{detalhesPokemon.hp}</span></div>
+                    <div className="bar-hp" style={{ width: `${detalhesPokemon.hp}px` }}><span className="status-em-preto">{detalhesPokemon.hp}</span></div>
                   </div>
 
                   <div className="grey-bar">
-                    <div className="bar-atk" style={{ width: `${detalhesPokemon.attack}px` }}><span>{detalhesPokemon.attack}</span></div>
+                    <div className="bar-atk" style={{ width: `${detalhesPokemon.attack}px` }}><span className="status-em-preto">{detalhesPokemon.attack}</span></div>
                   </div>
 
                   <div className="grey-bar">
-                    <div className="bar-def" style={{ width: `${detalhesPokemon.defense}px` }}><span>{detalhesPokemon.defense}</span></div>
+                    <div className="bar-def" style={{ width: `${detalhesPokemon.defense}px` }}><span className="status-em-preto">{detalhesPokemon.defense}</span></div>
                   </div>
 
                   <div className="grey-bar">
-                    <div className="bar-speed" style={{ width: `${detalhesPokemon.speed}px` }}><span>{detalhesPokemon.speed}</span></div>
+                    <div className="bar-speed" style={{ width: `${detalhesPokemon.speed}px` }}><span className="status-em-preto">{detalhesPokemon.speed}</span></div>
                   </div>
 
                   <div className="grey-bar">
-                    <div className="bar-spatk" style={{ width: `${detalhesPokemon.specialattack}px` }} ><span>{detalhesPokemon.specialattack}</span></div>
+                    <div className="bar-spatk" style={{ width: `${detalhesPokemon.specialattack}px` }} ><span className="status-em-preto">{detalhesPokemon.specialattack}</span></div>
                   </div>
 
                   <div className="grey-bar">
-                    <div className="bar-spdef" style={{ width: `${detalhesPokemon.specialdefense}px` }} ><span>{detalhesPokemon.specialdefense}</span></div>
+                    <div className="bar-spdef" style={{ width: `${detalhesPokemon.specialdefense}px` }} ><span className="status-em-preto">{detalhesPokemon.specialdefense}</span></div>
                   </div>
                 </div> 
               </div>

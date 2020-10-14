@@ -78,7 +78,7 @@ export default class Sobre extends Component {
                             <div class="btn-group">
                           <div class="btn ball">
                         <button>
-                          <div class="pokemon-ball"></div><a href="https://github.com/Luizgomess/Pokedex" target="_blank">Github<span data-letters="Go!"></span><span data-letters="Go!"></span></a>
+                          <div class="pokemon-ball"></div><a href="https://github.com/Luizgomess/Pokedex-using-reactjs-and-axios" target="_blank">Github<span data-letters="Go!"></span><span data-letters="Go!"></span></a>
                         </button>
                       </div>
                     </div>
@@ -93,7 +93,7 @@ export default class Sobre extends Component {
                   <div class="btn-group">
             <div class="btn ball">
               <button>
-                <div class="pokemon-ball"></div><a href="https://github.com/Luizgomess/Pokedex" target="_blank">Box<span data-letters="Go!"></span><span data-letters="Go!"></span></a>
+                <div class="pokemon-ball"></div><a href="https://codesandbox.io/s/fervent-night-jyrrt?file=/pokedex-completa/pokedex/src/App.js" target="_blank">Box<span data-letters="Go!"></span><span data-letters="Go!"></span></a>
               </button>
             </div>
           </div>
