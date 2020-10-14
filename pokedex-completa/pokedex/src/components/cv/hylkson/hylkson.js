@@ -8,7 +8,6 @@ import Hylkson from "../../Assets/hylkson.jpeg"
 
 
 export default class Cv extends Component {
-<<<<<<< HEAD
   voltar = (event) => {
     this.props.history.push("/");
   };
@@ -17,6 +16,7 @@ export default class Cv extends Component {
   return (
     
 <div className="tela-cv"> 
+
     <Menu />
     <button className="btn" id="voltar"onClick={this.voltar}>
         🡠 Voltar
@@ -26,18 +26,6 @@ export default class Cv extends Component {
           <section className="perfil-id">
             <article className="profile">
               <img src={Hylkson} alt="foto de perfil"/>
-=======
-    render() {
-    return (
-      
-  <div className="tela-cv"> 
-    <Menu />
-      <div className="curriculo">
-        <div className="wrapper-white">
-          <section className="perfil-id">
-            <article className="profile">
-              <img src="https://i.pinimg.com/originals/43/cb/92/43cb92df78c54dcabb6bf9210999f577.jpg" alt="foto de perfil"/>
->>>>>>> f4960ad6f648ebf5c618d0def87ebad3287a6c74
             </article>
             <article className="name">
               <h2>Hylkison Freitas</h2>
@@ -59,7 +47,6 @@ sempre para crescer junto com a empresa.</p>
             </p>
             <p>Ensino Médio (Completo)
             </p>
-<<<<<<< HEAD
 
           </section>
         </div>
@@ -74,20 +61,6 @@ sempre para crescer junto com a empresa.</p>
             <p className="skill"><a href="https://github.com/hylkison" target="_blank">Github</a></p>
             </div>
 
-=======
-
-          </section>
-        </div>
-        <div className="side-bar">
-          <div className="dados">
-            <div className="dados-pessoais">
-              <h3>Dados pessoais</h3>
-              <p className="skill">Olinda/PE</p>
-              <p className="skill">Sapucaia de fora</p>
-              <p className="skill">(81)98660-8556</p>
-            </div>
-
->>>>>>> f4960ad6f648ebf5c618d0def87ebad3287a6c74
             <div className="skills">
               <h3>Conhecimentos</h3>
               <p className="skill">HTML</p>

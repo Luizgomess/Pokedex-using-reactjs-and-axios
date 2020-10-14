@@ -15,7 +15,6 @@ export default class Cv extends Component {
     render() {
     return (
       
-<<<<<<< HEAD
       <div className="tela-cv"> 
       <Menu />
       <button className="btn" id="voltar"onClick={this.voltar}>
@@ -80,64 +79,3 @@ export default class Cv extends Component {
       }
   
   }
-=======
-  <div className="tela-cv"> 
-    <Menu />
-      <div className="curriculo">
-        <div className="wrapper-white">
-          <section className="perfil-id">
-            <article className="profile">
-              <img src="https://i.pinimg.com/originals/43/cb/92/43cb92df78c54dcabb6bf9210999f577.jpg" alt="foto de perfil"/>
-            </article>
-            <article className="name">
-              <h2>Danilo José</h2>
-              <p>Front-end Developer</p>
-              <p>dajoliol5@gmail.com</p>
-            </article>
-          </section>
-          <section className="descricao">
-            <h2>Descrição</h2>
-            <p>Olá, meu nome é Danilo José, tenho 24 anos e atualmente curso T.I. na Start.</p>
-          </section>
-          
-          <section className="Formacao">
-            <h2>Formações</h2>
-            <p>Curso de Front End com ênfase em React - Start Latam - 2020
-            </p>
-            <p>Curso Mecatrônica no CEPEP
-            </p>
-            <p>Ensino Médio (Completo)
-            </p>
-            <p>Curso de inglês - 3º período do curso de Inglês Intermediário - Prolinfo
-            </p>
-          </section>
-        </div>
-        <div className="side-bar">
-          <div className="dados">
-            <div className="dados-pessoais">
-              <h3>Dados pessoais</h3>
-              <p className="skill">Olinda/PE</p>
-              <p className="skill">Passarinho</p>
-              <p className="skill">(81)98896-1001</p>
-            </div>
-
-            <div className="skills">
-              <h3>Conhecimentos</h3>
-              <p className="skill">HTML</p>
-              <p className="skill">CSS</p>
-              <p className="skill">JavaScript</p>
-              <p className="skill">React</p>
-              <p className="skill">C++</p>
-              <p className="skill">SCRUM</p>
-            </div>
-          </div>
-        </div>
-      </div>
-        
-    <Footer />
-  </div>
-    )
-    }
-
-}
->>>>>>> f4960ad6f648ebf5c618d0def87ebad3287a6c74
